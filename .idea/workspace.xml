@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bacb3fb-f3a6-4274-8560-b527633117a0" name="Default Changelist" comment="18.2.19 15:48">
-      <change afterPath="$PROJECT_DIR$/OOP-basic.iml" afterDir="false" />
+    <list default="true" id="3bacb3fb-f3a6-4274-8560-b527633117a0" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/out/production/OOP-basic/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOP-basic/controller/CarController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOP-basic/controller/CarMain.class" afterDir="false" />
@@ -59,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Auto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
+            <state relative-caret-position="1012">
               <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
               <folding>
                 <element signature="e#1110#1111#0" expanded="true" />
@@ -114,8 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,12 +141,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550517905665" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550517962621" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -243,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550514758997</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="18.2.19 20:25">
+      <created>1550517938374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550517938374</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -251,9 +257,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13863637" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14090909" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -302,7 +307,8 @@
     <MESSAGE value="c" />
     <MESSAGE value="18.2.19 15:46" />
     <MESSAGE value="18.2.19 19:48" />
-    <option name="LAST_COMMIT_MESSAGE" value="18.2.19 19:48" />
+    <MESSAGE value="18.2.19 20:25" />
+    <option name="LAST_COMMIT_MESSAGE" value="18.2.19 20:25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -363,7 +369,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Auto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="1012">
           <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
           <folding>
             <element signature="e#1110#1111#0" expanded="true" />
