@@ -6,5 +6,20 @@ public class Auto {
     public int year;
     public String color;
     public String fuel_type;
-    public Double price;
+    public double price;
+
+    @Override
+    public String toString() {
+        return "Auto{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", color='" + color + '\'' +
+                ", fuel_type='" + fuel_type + '\'' +
+                ", price=" + price +
+                ", segment=" + segment +
+                '}';
+    }
+
+    public char segment;
 }
