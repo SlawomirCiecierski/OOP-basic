@@ -8,8 +8,9 @@ public class Auto {
     public String fuel_type;
     public double price;
     public char segment;
+    // ALT + Ins
 
-    //konstruktor
+    // konstruktor
     public Auto(String brand,
                 String model,
                 int year,
@@ -17,17 +18,15 @@ public class Auto {
                 String fuel_type,
                 double price,
                 char segment){
-        this.brand=brand;
-        this.model=model;
-        this.year=year;
-        this.color=color;
-        this.fuel_type=fuel_type;
-        this.price=price;
-        this.segment=segment;
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+        this.color = color;
+        this.fuel_type = fuel_type;
+        this.price = price;
+        this.segment = segment;
     }
 
-
-    //alt + ins
     @Override
     public String toString() {
         return "Auto{" +
@@ -39,20 +38,16 @@ public class Auto {
                 ", price=" + price +
                 ", segment=" + segment +
                 '}';
-
-
     }
 
-    public void setPrice(double newPrice) {
+    public void setPrice(double newPrice){
         this.price = newPrice;
     }
-
-    public double getPrice() {
+    public double getPrice(){
         return this.price;
     }
-
-    public double getPriceBrutto(int tax) {
-        return this.price * (1 + (tax / 100.));
-        //return getPrice() * (1 + ((double)tax / 100));
+    public double getPriceWithTax(int tax){
+        return getPrice() * (1 + ((double)tax/100));
     }
+
 }
